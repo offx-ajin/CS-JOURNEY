@@ -5,10 +5,10 @@ Description: a program that simulates a simple bank ATM system
 '''
 balance_amount=1000
 while True:
-    print("1./tCheck balance")
-    print("2./tDeposit money")
-    print("3./tWithdraw money")
-    print("4./Exit")
+    print("1.\tCheck balance")
+    print("2.\tDeposit money")
+    print("3.\tWithdraw money")
+    print("4.\tExit")
     choice=int(input("enter your choice:"))
     if choice ==1:
         print(f"The current balance ${balance_amount}")
